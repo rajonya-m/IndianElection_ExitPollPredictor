@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from model import predict_party  # Import the prediction function
+from .model import predict_party  # Import the prediction function
 
 # Load the dataset for visualization purposes
 df = pd.read_excel("Updated_Indian_Election_Data.xlsx")
